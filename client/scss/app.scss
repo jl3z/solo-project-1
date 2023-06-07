@@ -1,0 +1,13 @@
+@import '_variables';
+@import '_form';
+@import '_todoList';
+@import '_listItem';
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #dbc7da;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2rem;
+}

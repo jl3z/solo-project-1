@@ -1,8 +1,9 @@
 import React from 'react';
-import { render } from 'react-dom';
 import App from './components/App';
+import { createRoot } from 'react-dom/client';
 
-// uncomment so that webpack can bundle styles
-// import styles from './scss/application.scss';
+import styles from './scss/app.scss';
 
-render(<App />, document.getElementById('root'));
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+root.render(<App tab="home" />);

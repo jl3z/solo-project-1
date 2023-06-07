@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const ListItem = ({ text, removeItem }) => {
   return (
     <div className="list-item">

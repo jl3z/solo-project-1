@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 
 export const Form = ({ addItem }) => {
@@ -15,6 +16,7 @@ export const Form = ({ addItem }) => {
         type="text"
         className="inputField"
         onChange={(e) => setText(e.target.value)}
+        value={text}
       />
       <input type="submit" value="Add" className="submit-btn" />
     </form>

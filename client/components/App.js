@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useState } from 'react';
 
 import { Form } from './Form.js';
@@ -19,9 +19,10 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className="app">
+      <h1>To-Do List</h1>
       <Form addItem={addItem} />
-      <TodoList todos={todos} removeItem={removeItem} />
+      <ToDoList todos={todos} removeItem={removeItem} />
     </div>
   );
 }

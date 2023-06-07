@@ -1,0 +1,29 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0px;
+  padding: 0 2em;
+  width: 90%;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 5px 10px $ltgrey;
+}
+
+.list-item:hover {
+  box-shadow: 0px 3px 7px $ltgrey2;
+}
+
+.checkbox {
+  background-color: white;
+  border: 3.5px solid $brightBlue;
+  box-shadow: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
