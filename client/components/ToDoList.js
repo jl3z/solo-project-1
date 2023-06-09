@@ -10,6 +10,9 @@ export const ToDoList = ({ todos, removeItem }) => {
           <ListItem text={item} removeItem={() => removeItem(i)} key={i} />
         );
       })}
+      {/* <button style={{ margin: '20px' }} onClick={handleFilter}>
+        Delete All
+      </button> */}
     </div>
   );
 };

@@ -7,17 +7,19 @@
   padding: 0 2em;
   width: 90%;
   background-color: white;
+  color: $fontClr;
+
   border-radius: 0.5rem;
-  box-shadow: 0px 5px 10px $ltgrey;
+  box-shadow: 0px 5px 10px $listShdw;
 }
 
 .list-item:hover {
-  box-shadow: 0px 3px 7px $ltgrey2;
+  box-shadow: 0px 3px 7px $listShdw2;
 }
 
 .checkbox {
   background-color: white;
-  border: 3.5px solid $brightBlue;
+  border: 3.5px solid $btnClr;
   box-shadow: none;
   height: 20px;
   width: 20px;
@@ -27,3 +29,7 @@
 .checkbox:hover {
   cursor: pointer;
 }
+
+// .strike {
+//   text-decoration: line-through;
+// }

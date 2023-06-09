@@ -4,10 +4,23 @@
 @import '_listItem';
 
 .app {
-  font-family: sans-serif;
+  background-color: $bkgdClr;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  background-color: #dbc7da;
   width: 100vw;
   height: 100vh;
   padding-top: 2rem;
 }
+
+.mainH1 {
+  font-size: 3rem;
+  color: $fontClr;
+}
+
+/* 
+-FCFAF9
+-D1AFBE
+-BDA7AF
+-D7828D
+-824F6C
+*/
